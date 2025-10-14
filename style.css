@@ -1,10 +1,8 @@
 	body {
-	  background-color: rgb(170, 120, 218), rgb(122, 60, 180), blueviolet;
+    background-color: rgb(179, 179, 179);
 	  text-align: center;
     margin-top: 200px;
     margin-bottom: 200px;
-
-
 
 	}
 
@@ -19,7 +17,3 @@
 	#principal {}
 
 
-	.linkssite {
-    margin-top: 300px;
-    margin-bottom: 300px;
-  }
