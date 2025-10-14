@@ -1,23 +1,84 @@
-	body {
-    background-color: rgb(179, 179, 179);
-	  text-align: center;
-    margin-top: 200px;
-    margin-bottom: 200px;
-    margin-left: 0px;
-    margin-right: 0px;
+/* Estilo geral da página */
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: #f4f4f9; /* Fundo cinza bem claro */
+   color: #333;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   margin: 0;
+}
 
-	}
 
-	h1 {}
+/* Container principal que centraliza o conteúdo */
+#principal {
+   background-color: #ffffff; 
+   width: 100%;
+   max-width: 800px;
+   padding: 40px;
+   border-radius: 8px; 
+   box-shadow: 0 2px 10px rgba(0,0,0,0.1); 
+   box-sizing: border-box;
+}
 
-	p {}
 
-	img {
-    max-width: 400px;
-  }
+/* Estilo para o título principal */
+h1 {
+   color: #591263; 
+   text-align: center;
+   font-size: 2em;
+   margin-bottom: 30px;
+}
 
-	.imgindex {}
 
-	#principal {}
+/* Estilo para os parágrafos de texto */
+p {
+   font-size: 1.1em;
+   line-height: 1.6;
+}
+
+
+/* Estilo para a lista do menu principal (index.html) */
+ul {
+   list-style: none;
+   padding: 0;
+}
+
+
+li {
+   margin-bottom: 10px; /* Espaço entre os itens do menu */
+}
+
+
+a {
+   text-decoration: none; 
+   color: #591263; 
+   font-weight: bold;
+   display: block; 
+   padding: 15px;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   background-color: #f8f9fa;
+   transition: background-color 0.3s, color 0.3s;
+}
+
+
+/* Efeito ao passar o mouse sobre os links */
+a:hover {
+   background-color: #591263;
+   color: #ffffff;
+}
+
+
+/* Estilo padrão para qualquer imagem que você adicionar */
+img {
+   max-width: 50%;
+   height: auto;
+   display: block;
+   margin: 20px auto;
+   border-radius: 8px;
+}
+
 
 
