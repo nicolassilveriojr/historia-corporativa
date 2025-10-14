@@ -8,31 +8,49 @@ body {
     font-family: Arial, sans-serif;
     color: #333;
 }
+
 h1 {
     font-size: 2.5em;
     color: #fff;
     margin: 20px 0;
 }
+
 p {
     font-size: 1.2em;
     line-height: 1.6;
     margin: 10px auto;
     max-width: 600px;
 }
+
 img {
     max-width: 400px;
     display: block;
     margin: 20px auto;
     border-radius: 10px;
 }
+
 .imgindex {
     border: 2px solid #fff;
     padding: 10px;
 }
+
 #principal {
     background-color: #555;
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
     border-radius: 15px;
+}
+
+a {
+    text-decoration: none; /* Remove underline by default */
+    color: #fff; /* White color for links */
+    margin: 10px;
+    padding: 5px 10px; /* Add some padding for better click area */
+    display: inline-block; /* Make it block-like for styling */
+}
+
+a:hover {
+    color: #ff0; /* Change to yellow on hover */
+    text-decoration: underline; /* Add underline on hover */
 }
