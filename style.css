@@ -1,81 +1,23 @@
-/* Estilo geral da página */
-body {
-   font-family: Arial, Helvetica, sans-serif;
-   background-color: #f4f4f9; /* Fundo cinza bem claro */
-   color: #333;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   padding: 20px;
-   margin: 0;
-}
+	body {
+    background-color: rgb(179, 179, 179);
+	  text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+	}
+
+	h1 {}
+
+	p {}
+
+	img {
+    max-width: 400px;
+  }
+
+	.imgindex {}
+
+	#principal {}
 
 
-/* Container principal que centraliza o conteúdo */
-#principal {
-   background-color: #ffffff; /* Fundo branco para a caixa de conteúdo */
-   width: 100%;
-   max-width: 800px;
-   padding: 40px;
-   border-radius: 8px; /* Bordas arredondadas */
-   box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Sombra suave */
-   box-sizing: border-box;
-}
-
-
-/* Estilo para o título principal */
-h1 {
-   color: #591263; /* Azul escuro corporativo */
-   text-align: center;
-   font-size: 2em;
-   margin-bottom: 30px;
-}
-
-
-/* Estilo para os parágrafos de texto */
-p {
-   font-size: 1.1em;
-   line-height: 1.6; /* Espaçamento entre linhas para facilitar a leitura */
-}
-
-
-/* Estilo para a lista do menu principal (index.html) */
-ul {
-   list-style: none; /* Remove as bolinhas da lista */
-   padding: 0;
-}
-
-
-li {
-   margin-bottom: 10px; /* Espaço entre os itens do menu */
-}
-
-
-a {
-   text-decoration: none; /* Remove o sublinhado dos links */
-   color: #591263; /* Cor azul para os links */
-   font-weight: bold;
-   display: block; /* Faz o link ocupar todo o espaço do item da lista */
-   padding: 15px;
-   border: 1px solid #ddd;
-   border-radius: 5px;
-   background-color: #f8f9fa;
-   transition: background-color 0.3s, color 0.3s;
-}
-
-
-/* Efeito ao passar o mouse sobre os links */
-a:hover {
-   background-color: #591263;
-   color: #ffffff;
-}
-
-
-/* Estilo padrão para qualquer imagem que você adicionar */
-img {
-   max-width: 50%;
-   height: auto;
-   display: block;
-   margin: 20px auto;
-   border-radius: 8px;
-}
