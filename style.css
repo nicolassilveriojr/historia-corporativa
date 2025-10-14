@@ -43,14 +43,19 @@ img {
 }
 
 a {
-    text-decoration: none; /* Remove underline by default */
-    color: #fff; /* White color for links */
+    background-color: #555; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
     margin: 10px;
-    padding: 5px 10px; /* Add some padding for better click area */
-    display: inline-block; /* Make it block-like for styling */
+    cursor: pointer; 
 }
 
 a:hover {
-    color: #ff0; /* Change to yellow on hover */
-    text-decoration: underline; /* Add underline on hover */
+    background-color: #777; 
+    color: #ff0;
+    text-decoration: none;
 }
