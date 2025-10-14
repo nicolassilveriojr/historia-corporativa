@@ -20,6 +20,13 @@ p {
     line-height: 1.6;
     margin: 10px auto;
     max-width: 600px;
+    text-align: left; /* Align paragraphs left for readability */
+}
+
+.pmoral {
+    font-weight: bold; /* Make moral stand out */
+    font-style: italic;
+    margin-top: 20px;
 }
 
 img {
