@@ -56,6 +56,6 @@ a {
 
 a:hover {
     background-color: #777; 
-    color: #ff0;
+    color: rgb(187, 83, 228);
     text-decoration: none;
 }
