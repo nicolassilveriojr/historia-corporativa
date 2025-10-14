@@ -13,19 +13,19 @@ body {
 
 /* Container principal que centraliza o conteúdo */
 #principal {
-   background-color: #ffffff; 
+   background-color: #ffffff; /* Fundo branco para a caixa de conteúdo */
    width: 100%;
    max-width: 800px;
    padding: 40px;
-   border-radius: 8px; 
-   box-shadow: 0 2px 10px rgba(0,0,0,0.1); 
+   border-radius: 8px; /* Bordas arredondadas */
+   box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Sombra suave */
    box-sizing: border-box;
 }
 
 
 /* Estilo para o título principal */
 h1 {
-   color: #591263; 
+   color: #591263; /* Azul escuro corporativo */
    text-align: center;
    font-size: 2em;
    margin-bottom: 30px;
@@ -35,13 +35,13 @@ h1 {
 /* Estilo para os parágrafos de texto */
 p {
    font-size: 1.1em;
-   line-height: 1.6;
+   line-height: 1.6; /* Espaçamento entre linhas para facilitar a leitura */
 }
 
 
 /* Estilo para a lista do menu principal (index.html) */
 ul {
-   list-style: none;
+   list-style: none; /* Remove as bolinhas da lista */
    padding: 0;
 }
 
@@ -52,10 +52,10 @@ li {
 
 
 a {
-   text-decoration: none; 
-   color: #591263; 
+   text-decoration: none; /* Remove o sublinhado dos links */
+   color: #591263; /* Cor azul para os links */
    font-weight: bold;
-   display: block; 
+   display: block; /* Faz o link ocupar todo o espaço do item da lista */
    padding: 15px;
    border: 1px solid #ddd;
    border-radius: 5px;
@@ -79,6 +79,3 @@ img {
    margin: 20px auto;
    border-radius: 8px;
 }
-
-
-
