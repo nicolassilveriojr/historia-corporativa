@@ -56,7 +56,7 @@ a {
 
 a:hover {
     background-color: #777;
-    color: #ff0;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -73,5 +73,5 @@ button {
 
 button:hover {
     background-color: #777;
-    color: #ff0;
+    color: rgb(255, 255, 255);
 }
