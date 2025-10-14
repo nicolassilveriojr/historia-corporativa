@@ -1,23 +1,38 @@
-	body {
+body {
     background-color: rgb(179, 179, 179);
-	  text-align: center;
+    text-align: center;
     margin-top: 200px;
     margin-bottom: 200px;
     margin-left: 0px;
     margin-right: 0px;
-
-	}
-
-	h1 {}
-
-	p {}
-
-	img {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+h1 {
+    font-size: 2.5em;
+    color: #fff;
+    margin: 20px 0;
+}
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 10px auto;
+    max-width: 600px;
+}
+img {
     max-width: 400px;
-  }
-
-	.imgindex {}
-
-	#principal {}
-
-
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.imgindex {
+    border: 2px solid #fff;
+    padding: 10px;
+}
+#principal {
+    background-color: #555;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 15px;
+}
